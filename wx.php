@@ -14,7 +14,7 @@
 				self::$name=new self($a);
 				return self :: $name
 			}
-		}
+		}  
 		public function __clone(){
 			trigger_error('not clone',E_USER_ERROR);
 		}
